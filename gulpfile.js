@@ -14,3 +14,19 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.sass('app.scss');
 });
+
+
+
+if (mix.inProduction) {
+
+
+    mix.styles([ // page assets css
+        'resources/assets/touche/css/isotope.css',
+
+    ], 'public/css/assets.css')
+    ;
+
+    mix.scripts([ //page assets js
+        'resources/assets/touche/js/jquery.1.11.1.js',
+    ], 'public/js/assets.js');
+}
