@@ -12,21 +12,18 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    // mix.sass('app.scss');
+
+    /*mix.styles([
+        'normalize.css',
+        'main.css'
+    ], 'public/assets/css/site.css');*/
+
+    mix.scripts([
+        'app.js',
+        'controllers.js'
+    ], 'public/js/app.js');
+
+
 });
 
-
-
-if (mix.inProduction) {
-
-
-    mix.styles([ // page assets css
-        'resources/assets/touche/css/isotope.css',
-
-    ], 'public/css/assets.css')
-    ;
-
-    mix.scripts([ //page assets js
-        'resources/assets/touche/js/jquery.1.11.1.js',
-    ], 'public/js/assets.js');
-}
