@@ -37,5 +37,6 @@
 
 <script type="text/javascript" src="{{ URL::asset('/js/assets.js') }}"></script>
 
+
 </body>
 </html>

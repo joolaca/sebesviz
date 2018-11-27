@@ -123,7 +123,7 @@
 
         }
 	
-    //Google Map
+    /*//Google Map
     var get_latitude = $('#google-map').data('latitude');
     var get_longitude = $('#google-map').data('longitude');
 
@@ -140,6 +140,6 @@
             map: map
         });
     }
-    google.maps.event.addDomListener(window, 'load', initialize_google_map);
+    google.maps.event.addDomListener(window, 'load', initialize_google_map);*/
 
 })(jQuery);
