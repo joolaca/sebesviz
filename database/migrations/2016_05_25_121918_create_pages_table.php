@@ -12,7 +12,7 @@ class CreatePagesTable extends Migration
      */
     public function up()
     {
-        // TODO: use JSON data type for 'extras' instead of string
+        // TODO: use text data type for 'extras' instead of string
         Schema::create('pages', function (Blueprint $table) {
             $table->increments('id');
             $table->string('template');

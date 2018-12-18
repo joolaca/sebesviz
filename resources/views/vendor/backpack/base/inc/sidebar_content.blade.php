@@ -1,6 +1,13 @@
 <li><a href="{{ backpack_url('dashboard') }}"><i class="fa fa-dashboard"></i> <span>{{ trans('backpack::base.dashboard') }}</span></a></li>
 
 <li class="treeview">
+    <a href="#"><i class="fa fa-smile-o"></i> <span>Index oldal</span> <i class="fa fa-angle-left pull-right"></i></a>
+    <ul class="treeview-menu">
+      <li><a href="{{ backpack_url('index_page') }}"><i class="fa fa-optin-monster"></i> <span>Header</span></a></li>
+
+    </ul>
+</li>
+<li class="treeview">
     <a href="#"><i class="fa fa-smile-o"></i> <span>Demo Entities</span> <i class="fa fa-angle-left pull-right"></i></a>
     <ul class="treeview-menu">
       <li><a href="{{ backpack_url('monster') }}"><i class="fa fa-optin-monster"></i> <span>Monsters</span></a></li>

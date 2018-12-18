@@ -19,4 +19,8 @@ Route::group([
     CRUD::resource('monster', 'MonsterCrudController');
     CRUD::resource('icon', 'IconCrudController');
     CRUD::resource('product', 'ProductCrudController');
+
+//    CRUD::resource('index_page', 'MonsterCrudController');
+    Route::get('index_page', 'EditIndexPageController@renderEdit');
+
 }); // this should be the absolute last line of this file

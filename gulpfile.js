@@ -20,36 +20,23 @@ elixir(function(mix) {
     //cls; npm run prod
     if (elixir.config.production) {
         mix.styles([
-            './resources/assets/Green/css/isotope.css',
-            './resources/assets/Green/js/fancybox/jquery.fancybox.css',
-            './resources/assets/Green/css/bootstrap.css',
-            './resources/assets/Green/css/bootstrap-theme.css',
-            './resources/assets/Green/css/responsive-slider.css',
-            './resources/assets/Green/css/animate.css',
-            './resources/assets/Green/css/style.css',
-            './resources/assets/Green/css/font-awesome.min.css',
-            './resources/assets/Green/skin/default.css',
+            './resources/assets/touche/css/bootstrap.css',
+            './resources/assets/touche/fonts/font-awesome/css/font-awesome.css',
+            './resources/assets/touche/css/style.css',
+            './resources/assets/touche/css/nivo-lightbox/nivo-lightbox.css',
+            './resources/assets/touche/css/nivo-lightbox/default.css',
 
 
         ], 'public/css/assets.css');
 
         mix.scripts([
-            './resources/assets/Green/js/modernizr-2.6.2-respond-1.1.0.min.js',
-            './resources/assets/Green/js/jquery.js',
-            './resources/assets/Green/js/jquery.easing.1.3.js',
-            './resources/assets/Green/js/bootstrap.min.js',
-            './resources/assets/Green/js/jquery.isotope.min.js',
-            './resources/assets/Green/js/jquery.nicescroll.min.js',
-            './resources/assets/Green/js/fancybox/jquery.fancybox.pack.js',
-            './resources/assets/Green/js/skrollr.min.js',
-            './resources/assets/Green/js/jquery.scrollTo.js',
-            './resources/assets/Green/js/jquery.localScroll.js',
-            './resources/assets/Green/js/stellar.js',
-            './resources/assets/Green/js/responsive-slider.js',
-            './resources/assets/Green/js/jquery.appear.js',
-            './resources/assets/Green/js/grid.js',
-            './resources/assets/Green/js/main.js',
-            './resources/assets/Green/js/wow.min.js',
+            './resources/assets/touche/js/jquery.1.11.1.js',
+            './resources/assets/touche/js/bootstrap.js',
+            './resources/assets/touche/js/nivo-lightbox.js',
+            './resources/assets/touche/js/jquery.isotope.js',
+            './resources/assets/touche/js/jqBootstrapValidation.js',
+            './resources/assets/touche/js/SmoothScroll.js',
+            './resources/assets/touche/js/main.js',
 
         ], 'public/js/assets.js');
 

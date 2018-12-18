@@ -13,7 +13,14 @@
     <title>Sebesvíz</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/assets.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+
+
+    <link href="{{ URL::asset('/css/assets.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('/css/index.css') }}" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -22,9 +29,6 @@
 
 <script src="js/assets.js"></script>
 
-<script>
-    wow = new WOW({}).init();
-</script>
 
 </body>
 
